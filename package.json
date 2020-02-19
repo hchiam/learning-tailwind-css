@@ -2,7 +2,7 @@
   "name": "learning-tailwind-css",
   "version": "1.0.0",
   "private": true,
-  "description": "A CSS utility framework. Don&#39;t look like a standard Bootstrap site. Configurable with a JS config file. Extendible with custom classes.  (This file was first created using the Yeoman generator generator-hchiam-learning: https://www.npmjs.com/package/generator-hchiam-learning",
+  "description": "A CSS utility framework. Don't look like a standard Bootstrap site. Configurable with a JS config file. Extendible with custom classes.  (This file was first created using the Yeoman generator generator-hchiam-learning: https://www.npmjs.com/package/generator-hchiam-learning",
   "main": "src/index.js",
   "scripts": {
     "start": "rm -rf dist || true; parcel src/index.html --out-dir dist --cache-dir .cache --open; # react-scripts start;",
