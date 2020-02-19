@@ -1,4 +1,4 @@
-# Learning Tailwind CSS
+# Learning [Tailwind CSS](https://tailwindcss.com/)
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
