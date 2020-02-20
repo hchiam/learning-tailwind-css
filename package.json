@@ -9,16 +9,7 @@
     "stop": "killall node",
     "build": "rm -rf dist || true; parcel build src/index.html --out-dir dist --cache-dir .cache --no-source-maps; # react-scripts build;",
     "build:postcss": "postcss src/tailwind.css -o public/tailwind.css",
-    "test": "npm run start & (if (cypress run); then echo 'Now running Jest tests:' && jest --passWithNoTests && npm run reminder:stop; else npm run reminder:stop && exit 1; fi;); # CI=true react-scripts test;",
-    "lint": "eslint src/*.js src/**/*.js --max-warnings=0",
-    "fix": "eslint --fix src/*.js src/**/*.js --max-warnings=0",
-    "reminder": "echo; echo 'Reminders: \n\nDid you do \\033[1;34mnpm run build\\033[0m first? \nDo you need to \\033[1;34m[skip ci]\\033[0m? \n\\033[1;34mControl+C\\033[0m and \\033[1;34mnpm run stop\\033[0m to stop the \"start\" script.'; echo;",
-    "reminder:stop": "echo; echo 'Reminder: \\033[1;34mControl+C\\033[0m and \\033[1;34mnpm run stop\\033[0m to stop the \"start\" script.'; echo;",
-    "deps": "bash show_dep_graph.sh",
-    "cypress": "cypress open",
-    "lighthouse": "printf '\nPlease wait 10 seconds for the browser to open automatically and test the production version built to dist.\n\n'; npx serve dist & (sleep 10; lighthouse http://localhost:5000; open *.report.html; killall node;)",
-    "surge": "bash publish_live_site.sh",
-    "zip": "zip -r ${PWD##*/}.zip * .eslintignore .eslintrc.js .gitignore .travis.yml -x \"node_modules/*\"; echo; echo \"created ${PWD##*/}.zip inside this folder\"; echo;"
+    "deps": "bash show_dep_graph.sh"
   },
   "author": "hchiam",
   "license": "MIT",
@@ -28,22 +19,7 @@
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "@lhci/cli": "^0.3.8",
-    "cypress": "^4.0.2",
-    "cypress-plugin-snapshots": "^1.2.9",
-    "eslint": "^6.8.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.18.3",
-    "husky": "^3.0.9",
-    "jest-cli": "^24.9.0",
-    "lighthouse": "^5.6.0",
-    "parcel-bundler": "^1.12.4",
-    "precss": "^4.0.0",
-    "react-scripts": "^3.4.0"
-  },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "<rootDir>/cypress"
-    ]
+    "parcel": "^1.12.4",
+    "precss": "^4.0.0"
   }
 }
