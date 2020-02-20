@@ -4,5 +4,3 @@ module.exports = {
     require('autoprefixer')
   ]
 }
-
-// TODO: something down here.
