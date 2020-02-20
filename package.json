@@ -2,13 +2,10 @@
   "name": "learning-tailwind-css",
   "version": "1.0.0",
   "private": true,
-  "description": "A CSS utility framework. Don't look like a standard Bootstrap site. Configurable with a JS config file. Extendible with custom classes.  (This file was first created using the Yeoman generator generator-hchiam-learning: https://www.npmjs.com/package/generator-hchiam-learning",
+  "description": "A CSS utility framework. Don't look like a standard Bootstrap site. Configurable with a JS config file. Extendible with custom classes.",
   "main": "src/index.js",
   "scripts": {
-    "start": "rm -rf dist || true; parcel src/index.html --out-dir dist --cache-dir .cache --open; # react-scripts start;",
-    "stop": "killall node",
-    "build": "rm -rf dist || true; parcel build src/index.html --out-dir dist --cache-dir .cache --no-source-maps; # react-scripts build;",
-    "build:postcss": "postcss src/tailwind.css -o public/tailwind.css"
+    "start": "rm -rf dist || true; parcel src/index.html --out-dir dist --cache-dir .cache --open;"
   },
   "author": "hchiam",
   "license": "MIT",
@@ -19,7 +16,6 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "precss": "^4.0.0",
-    "react-scripts": "^3.4.0"
+    "precss": "^4.0.0"
   }
 }
