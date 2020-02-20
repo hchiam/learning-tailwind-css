@@ -11,7 +11,7 @@ npm install
 npm start
 ```
 
-Or if you have yarn:
+Or if you have [yarn](https://github.com/hchiam/learning-yarn):
 
 ```bash
 yarn
