@@ -57,7 +57,7 @@ purgecss
 `<style scoped></style>` <https://www.w3schools.com/tags/att_scoped.asp>
 
 ```css
-/* how does @apply work? */
+/* how does @apply work? it comes from SASS: https://stackoverflow.com/questions/41067550/what-is-apply-in-css/41068183#41068183 */
 .some-grouping-class {
   @apply bg-yellow-400 flex items-center p-20;
 }
