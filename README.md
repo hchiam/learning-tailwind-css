@@ -54,7 +54,7 @@ npx tailwindcss init
 
 purgecss
 
-`<style scoped></style>`
+`<style scoped></style>` <https://www.w3schools.com/tags/att_scoped.asp>
 
 ```css
 /* how does @apply work? */
