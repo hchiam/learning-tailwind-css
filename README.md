@@ -47,22 +47,6 @@ purgecss
 }
 ```
 
-```js
-module.exports = {
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
-    plugin(function({addComponents, theme})) {
-      const inputs ; {
-        '.text-input': {
-          width: '100%',
-        }
-      }
-    }
-  ]
-}
-```
-
 <https://www.meetup.com/KWJavaScript/events/268537370>
 
 ## Other notes:
