@@ -13,6 +13,7 @@ node init -y
 npm install --save-dev tailwindcss postcss postcss-cli cssnano @fullhuman/postcss-purgecss autoprefixer watch
 npx tailwind init tailwind.js
 npx tailwind build ./src/style.css -c ./tailwind.js -o ./dist/output.css
+touch postcss.config.js
 npm run build:css
 ```
 
