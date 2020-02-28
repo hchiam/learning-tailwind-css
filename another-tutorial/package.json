@@ -1,0 +1,24 @@
+{
+  "name": "another-tutorial",
+  "version": "1.0.0",
+  "description": "Slightly old YouTube crash course: https://www.youtube.com/watch?v=8k165Y0qBN0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss ./src/style.css -o ./dist/output.css",
+    "watch": "watch \"npm run note; npm run build:css\" .",
+    "note": "echo Wait a few seconds for PostCSS to optimize your CSS"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0",
+    "watch": "^1.0.2"
+  }
+}

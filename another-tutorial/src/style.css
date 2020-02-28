@@ -1,0 +1,8 @@
+/* CSS will gloss over, but Tailwind will process: */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rightcol {
+  background: #f7f7f7 url('https://www.transparenttextures.com/patterns/arabesque.png');
+}
