@@ -4,6 +4,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 A CSS utility framework. Don't look like a standard Bootstrap site. Configurable with a JS config file. Extendible with custom classes. (Customizability built in, but the documentation has a lot of examples of elements with classes.)
 
+Tailwind utility classes are like Bootstrap utility classes, but without any defaults imposed. I like to think of it like this: "additive" (Tailwind) vs "adjust" (Bootstrap).
+
 (**_EDIT:_** A quick tutorial / crash course / template: <https://github.com/hchiam/learning-tailwind-css/tree/master/another-tutorial>)
 
 ## To run the example in this repo:
