@@ -6,7 +6,9 @@ A CSS utility framework. Don't look like a standard Bootstrap site. Configurable
 
 Tailwind utility classes are like Bootstrap utility classes, but without any defaults imposed. I like to think of it like this: "additive" (Tailwind) vs "adjust" (Bootstrap).
 
-(**_EDIT:_** A quick tutorial / crash course / template: <https://github.com/hchiam/learning-tailwind-css/tree/master/another-tutorial>)
+Here's a Quora explanation: <https://www.quora.com/What-is-the-advantage-of-the-Tailwind-CSS-framework-over-Bootstrap>
+
+Here's a quick tutorial / crash course / template: <https://github.com/hchiam/learning-tailwind-css/tree/master/another-tutorial>
 
 ## To run the example in this repo:
 
